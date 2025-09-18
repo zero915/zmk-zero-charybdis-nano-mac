@@ -1,1 +1,1 @@
-# zmk-zero-charybdis-nano-mac
+# zmk-config-zero-charybdis-nano
