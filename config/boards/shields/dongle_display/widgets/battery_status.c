@@ -20,6 +20,8 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include "battery_status.h"
 
+#define ZMK_SPLIT_BLE_PERIPHERAL_COUNT 2 
+
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 struct peripheral_battery_state {
