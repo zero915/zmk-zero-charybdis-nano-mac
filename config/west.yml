@@ -14,7 +14,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: DoctorWangWang
+      remote: zero915
       revision: main
       
   self:
