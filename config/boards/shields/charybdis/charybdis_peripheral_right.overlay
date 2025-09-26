@@ -69,7 +69,7 @@
 };
 
 / {
-    trackball_listener {
+    trackball_listener: input_relay_101 {
         compatible = "zmk,split-peripheral-input-relay";
         relay-channel = <101>; // channel ID matching central
     };
