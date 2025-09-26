@@ -42,13 +42,16 @@ if LVGL
 
 endif
 
-if SHIELD_CHARYBDIS_PERIPHERAL_RIGHT || SHIELD_CHARYBDIS_PERIPHERAL_LEFT
+if SHIELD_CHARYBDIS_PERIPHERAL_RIGHT
 
     config ZMK_SPLIT
         default y
 
-    config ZMK_SPLIT_ROLE_PERIPHERAL 
-        default y
+endif
 
+if SHIELD_CHARYBDIS_PERIPHERAL_LEFT
+
+    config ZMK_SPLIT
+        default y
 endif
 
