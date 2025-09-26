@@ -32,6 +32,11 @@
         rows = <0>;
         events = <0>;
     };
+    
+    right_trackball_relay: input_relay_101 {
+        compatible = "zmk,split-peripheral-input-relay";
+        relay-channel = <101>;   /* must match the peripheral */
+    };
 };
 
 &pro_micro_i2c {

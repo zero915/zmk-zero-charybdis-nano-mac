@@ -57,9 +57,14 @@
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
         /*   optional features   */
-        snipe-layers = <1>;
+        // snipe-layers = <1>;
         // scroll-layers = <2 3>;
         // automouse-layer = <4>;
+
+        /* input event codes for split relay */
+        evt-type = <0x02>;      /* INPUT_EV_REL */
+        x-input-code = <0x00>;  /* INPUT_REL_X */
+        y-input-code = <0x01>;  /* INPUT_REL_Y */
     };
 };
 
@@ -67,6 +72,7 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
+        relay-channel = <101>; // channel ID matching central
     };
 };
 
