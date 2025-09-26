@@ -70,7 +70,7 @@
 
 / {
     trackball_listener {
-        compatible = "zmk,input-listener";
+        compatible = "zmk,split-peripheral-input-relay";
         device = <&trackball>;
         relay-channel = <101>; // channel ID matching central
     };
