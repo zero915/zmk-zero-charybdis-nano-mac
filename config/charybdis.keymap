@@ -193,9 +193,7 @@
             bindings =
                 <&kp LC(R)>,
                 <&macro_wait_time 50>,
-                <&kp C &kp E &kp L &kp E>,
-                <&macro_wait_time 1000>,
-                <&kp RET &kp N1 &kp RET>,
+                <&kp C &kp E &kp L &kp E &kp RET>,
                 <&macro_wait_time 2000>,
                 <&kp LC(LS(N5)) &kp LC(R)>,
                 <&macro_wait_time 50>,
@@ -207,7 +205,11 @@
                 <&macro_wait_time 2000>,
                 <&kp LC(LS(N5)) &kp LC(R)>,
                 <&macro_wait_time 50>,
-                <&kp R &kp U &kp N &kp S &kp E &kp RET>;
+                <&kp R &kp U &kp N &kp S &kp E &kp RET>,
+                <&macro_wait_time 2000>,
+                <&kp LC(LS(N1)) &kp LC(R)>,
+                <&macro_wait_time 50>,
+                <&kp S &kp T &kp U &kp D &kp RET>;
         };
     };
 
