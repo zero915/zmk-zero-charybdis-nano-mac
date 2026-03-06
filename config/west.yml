@@ -6,7 +6,7 @@ manifest:
       url-base: https://github.com/zero915
     - name: inorichi
       url-base: https://github.com/inorichi
-    - name: sayu-hub
+    - name: DoctorWangWang
       url-base: https://github.com/DoctorWangWang
   projects:
     - name: zmk
@@ -14,7 +14,7 @@ manifest:
       revision: v0.3.0
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: zero915
+      remote: DoctorWangWang
       revision: main
       
   self:
