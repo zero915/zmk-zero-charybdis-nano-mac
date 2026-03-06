@@ -197,19 +197,20 @@
                 <&macro_wait_time 2000>,
                 <&kp LC(LS(N5)) &kp LC(R)>,
                 <&macro_wait_time 50>,
-                <&kp R &kp U &kp N &kp SPACE &kp D &kp RET>,
+                <&kp R &kp U &kp N &kp SPACE &kp RET>,
                 <&macro_wait_time 2000>,
                 <&kp LC(LS(N5)) &kp LC(R)>,
                 <&macro_wait_time 50>,
-                <&kp A &kp P &kp P &kp DOT &kp P &kp RET>,
+                <&kp A &kp P &kp P &kp DOT &kp RET>,
                 <&macro_wait_time 2000>,
                 <&kp LC(LS(N5)) &kp LC(R)>,
                 <&macro_wait_time 50>,
-                <&kp R &kp U &kp N &kp S &kp E &kp RET>,
+                <&kp R &kp U &kp N &kp S &kp RET>,
                 <&macro_wait_time 2000>,
                 <&kp LC(LS(N1)) &kp LC(R)>,
-                <&macro_wait_time 50>,
-                <&kp S &kp T &kp U &kp D &kp RET>;
+                <&macro_wait_time 50>
+                //,<&kp N &kp G &kp RET>
+                ;
         };
     };
 
@@ -230,7 +231,7 @@
             //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────╯
 
             bindings = <
-&lt 5 Q        &kp W       &kp E        &kp R        &kp T      &none    &none  &kp Y      &kp U        &kp I        &kp O       &kp P
+&lt 5 Q      &kp W       &kp E        &kp R        &kp T      &none    &none  &kp Y      &kp U        &kp I        &kp O       &kp P
 &kp A        &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G      &none    &none  &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &lt 1 SQT
 &hm LSHFT Z  &kp X       &kp C        &kp V        &kp B      &none    &none  &kp N      &kp M        &kp COMMA    &kp DOT     &hm SEMI FSLH
 &none        &none       &kp LGUI     &lt 1 TAB    &kp SPACE  &none    &none  &lt 5 RET  &lt 2 BSPC
