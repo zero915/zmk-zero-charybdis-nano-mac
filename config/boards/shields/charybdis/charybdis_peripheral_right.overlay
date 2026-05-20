@@ -69,6 +69,9 @@
 };
 
 / {
+    #address-cells = <1>;
+    #size-cells = <0>;
+    
     trackball_split: trackball_split@101 {
         compatible = "zmk,input-split";
         reg = <101>;
