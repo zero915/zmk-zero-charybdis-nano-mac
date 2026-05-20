@@ -33,9 +33,9 @@
         events = <0>;
     };
     
-    right_trackball_relay: input_relay_101 {
-        compatible = "zmk,split-peripheral-input-relay";
-        relay-channel = <101>;   /* must match the peripheral */
+    right_trackball_split: right_trackball_split@101 {
+        compatible = "zmk,input-split";
+        reg = <101>;
     };
 };
 
