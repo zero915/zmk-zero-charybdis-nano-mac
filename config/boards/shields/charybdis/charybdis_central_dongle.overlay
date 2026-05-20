@@ -40,6 +40,11 @@
         compatible = "zmk,input-split";
         reg = <101>;
     };
+
+    trackball_listener: trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&right_trackball_split>;
+    };
 };
 
 &pro_micro_i2c {
